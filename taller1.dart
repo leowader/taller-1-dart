@@ -195,6 +195,7 @@ List maxMin(List<int> numeros) {
   return listanum;
 }
 bool aprobacion(List<double> numeros) {
+  print("-----------punto 15--------------");
   bool estado = true;
   for (var element in numeros) {
     if (element < 5) {
